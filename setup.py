@@ -31,7 +31,8 @@ setup(
     keywords=['python', 'caesar cipher', 'julius caesar', 'history'],
     license='MIT',
     classifiers=[
-        "Development Status :: 1 - Testing",
+        "License :: OSI Approved :: MIT License",
+        "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
