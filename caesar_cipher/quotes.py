@@ -1,6 +1,7 @@
 import requests, random
 from bs4 import BeautifulSoup as bs
 
+from caesar_cipher \
 import offline_quotes as oq
 
 try:

@@ -17,6 +17,7 @@ setup(
     version=VERSION,
     author="Statogale (Gabriel Okundaye)",
     author_email="<gabriel.okundaye@statogale.com>",
+    url='https://github.com/statogale/caesar-cipher',
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
@@ -28,6 +29,7 @@ setup(
     },
     install_requires=['requests_cache', 'langid'],
     keywords=['python', 'caesar cipher', 'julius caesar', 'history'],
+    license='MIT',
     classifiers=[
         "Development Status :: 1 - Testing",
         "Intended Audience :: Developers",
