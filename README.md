@@ -85,4 +85,18 @@ Source: <a href="https://upload.wikimedia.org/wikipedia/commons/b/b5/CipherDisk2
 
 # Focus
 ### This caesar cipher program encrypts only uppercase letters and no other characters. Modelled closely to the caesar cipher used before common era.
-### Although it can be modified to include lower case letters as explained in the alphabets module in the caesar_cipher package
+
+
+# Install
+```bash
+pip install caesar_cipher
+``` 
+
+# Run in command/terminal
+```bash
+caesar_cipher
+```
+
+# Import modules
+from caesar_cipher import encryption as ce
+from caesar_cipher import decryption as de

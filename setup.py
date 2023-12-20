@@ -13,7 +13,7 @@ LONG_DESCRIPTION = "Preserving History Through Code- Julius Caesar's Shift Ciphe
 
 # Setting up
 setup(
-    name="caesar-cipher",
+    name="caesar_cipher",
     version=VERSION,
     author="Statogale (Gabriel Okundaye)",
     author_email="<gabriel.okundaye@statogale.com>",
@@ -21,6 +21,11 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'caesar_cipher = caesar_cipher.caesar_cipher:main',
+        ],
+    },
     install_requires=['requests_cache', 'langid'],
     keywords=['python', 'caesar cipher', 'julius caesar', 'history'],
     classifiers=[
