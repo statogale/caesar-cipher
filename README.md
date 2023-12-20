@@ -89,14 +89,16 @@ Source: <a href="https://upload.wikimedia.org/wikipedia/commons/b/b5/CipherDisk2
 
 # Install
 ```bash
-pip install caesar_cipher
+pip install jc_cipher
 ``` 
 
 # Run in command/terminal
 ```bash
-caesar_cipher
+jc_cipher
 ```
 
 # Import modules
+```bash
 from caesar_cipher import encryption as ce
 from caesar_cipher import decryption as de
+```

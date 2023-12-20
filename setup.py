@@ -7,24 +7,24 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
     
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = 'Preserving History Through Code- Caesar Cipher'
-LONG_DESCRIPTION = "Preserving History Through Code- Julius Caesar's Shift Cipher"
+# LONG_DESCRIPTION = "Preserving History Through Code- Julius Caesar's Shift Cipher"
 
 # Setting up
 setup(
-    name="caesar_cipher",
+    name="jc_cipher",
     version=VERSION,
     author="Statogale (Gabriel Okundaye)",
     author_email="<gabriel.okundaye@statogale.com>",
     url='https://github.com/statogale/caesar-cipher',
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
+    long_description=long_description,
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'caesar_cipher = caesar_cipher.caesar_cipher:main',
+            'jc_cipher = caesar_cipher.caesar_cipher:main',
         ],
     },
     install_requires=['requests_cache', 'langid'],
