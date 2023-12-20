@@ -12,7 +12,7 @@ In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift ciphe
          alt="The Caesar cipher is named for Julius Caesar, who used an alphabet where decrypting would shift three letters to the left.." 
          caption="Gaius Julius Caesar"
     />    
-    <div align="center">100-44 BCE</div>
+    <div align="center">Julius Caesar (100-44 BCE)</div>
 </div>
 Source: <a href="https://en.wikipedia.org/wiki/File:Bust_of_Julius_Caesar_from_History_of_the_World_(1902).png">Wikipedia</a>
 
