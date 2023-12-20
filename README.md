@@ -73,7 +73,7 @@ Source: <a href="https://upload.wikimedia.org/wikipedia/commons/b/b5/CipherDisk2
     />
     <div align="center">CipherDisk in 0 position 0 Shift</div>
     <br>
-    <img src="/images/caesar_cipher_left_shift_of_3.png"
+    <img src="/images/cipher_disk_shift_3.png"
          width="300"
          align="center"
          margin="100"
