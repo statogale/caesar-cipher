@@ -37,11 +37,16 @@ def text_shift(alphabets, job):
     return text, shift
 
 
-def ask_user(job):
-    """ Ask user if they want to do an encryption or a decryption. """
-    try:
-        user = input(f"\nDo you want to perform {job}?  \
-                      \nEnter Y or y for Yes or any other value to end the program:  ")
-        return user
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+def ask_user():
+    """Ask user if they want to do an encryption or a decryption or exit."""
+    while True:
+        try:
+            user = input(f"\nChoose an action (1/2/3): ")
+            if user not in ['1','2','3']:
+                raise ValueError
+            break
+        except ValueError as e:
+            print(f"😞 Input is not valid. Please choose 1, 2, or 3")
+        except Exception as e:
+            print(f"An unexpected error occurred: {e}")
+    return user

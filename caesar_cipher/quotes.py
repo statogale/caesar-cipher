@@ -1,7 +1,7 @@
 import requests, random
 from bs4 import BeautifulSoup as bs
 
-from caesar_cipher import offline_quotes as oq
+import offline_quotes as oq
 
 try:
     # Run program even if these dependencies (requests_cache, langid) are not installed

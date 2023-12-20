@@ -1,12 +1,20 @@
 import time
-from caesar_cipher import quotes as cq
+import quotes as cq
 
-def welcome(program):
+def welcome():
     """Displays the welcome mesaage"""
-    welcome_message = f"😇 Welcome! This is Caesar Cipher {program} program- a substitution cipher."
+    welcome_message = f"😇 Welcome! This is Caesar Cipher program- a substitution cipher."
     for char in welcome_message:
         print(f"{char}", end="")
         time.sleep(0.05)
+        
+def menu():
+    """Display main menu"""
+    print(f"\n1. Encryption \
+            \n2. Decryption \
+            \n3. Exit       \
+        ")
+
         
 def results(plain_text, shift, cipher_text, job):
     """Handles display of results"""
@@ -51,8 +59,8 @@ def quote(plain_text):
     
 
 def outro(user):
-    """Displays outro message if wants to quit the program."""
-    if user.lower() != "y":         
+    """Displays outro message if wants to exit the program."""
+    if user == "3":         
         good_bye = "👋 Good bye"
         print(f"\n{good_bye}")
         return "break" 
