@@ -13,7 +13,7 @@ DESCRIPTION = 'Preserving History Through Code- Caesar Cipher'
 
 # Setting up
 setup(
-    name="jc_cipher",
+    name="jc-cipher",
     version=VERSION,
     author="Statogale (Gabriel Okundaye)",
     author_email="<gabriel.okundaye@statogale.com>",
@@ -24,7 +24,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'jc_cipher = caesar_cipher.caesar_cipher:main',
+            'jc-cipher = caesar_cipher.caesar_cipher:main',
         ],
     },
     install_requires=['requests_cache', 'langid'],

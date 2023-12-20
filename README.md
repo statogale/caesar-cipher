@@ -89,12 +89,12 @@ Source: <a href="https://upload.wikimedia.org/wikipedia/commons/b/b5/CipherDisk2
 
 # Install
 ```bash
-pip install jc_cipher
+pip install jc-cipher
 ``` 
 
 # Run in command/terminal
 ```bash
-jc_cipher
+jc-cipher
 ```
 
 # Import modules
