@@ -6,7 +6,7 @@ In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift ciphe
 
 <div align="center">
     <!-- <img src="/images/julius_caesar.png" -->
-    <img src="https://github.com/statogale/caesar-cipher/blob/main/images/julius_caesar.png"
+    <img src="https://raw.githubusercontent.com/statogale/caesar-cipher/main/images/julius_caesar.png"
          width="400"
          align="center"
          margin="100"
