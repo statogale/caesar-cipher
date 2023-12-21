@@ -30,7 +30,7 @@ Ciphertext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD <br/>
 
 <div align="center">
     <!-- <img src="/images/caesar_cipher_left_shift_of_3.png" -->
-    <img src="https://github.com/statogale/caesar-cipher/blob/main/images/caesar_cipher_left_shift_of_3.png"
+    <img src="https://raw.githubusercontent.com/statogale/caesar-cipher/main/images/caesar_cipher_left_shift_of_3.png"
          width="400"
          align="center"
          margin="100"
@@ -48,7 +48,7 @@ Source: <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesa
 <br />
 <div align="center">
     <!-- <img src="/images/alberti_cipher_disk.png"  -->
-    <img src="https://github.com/statogale/caesar-cipher/blob/main/images/alberti_cipher_disk.png" 
+    <img src="https://raw.githubusercontent.com/statogale/caesar-cipher/main/images/alberti_cipher_disk.png" 
          width="400"
          align="center"
          margin="100"
@@ -68,7 +68,7 @@ Source: <a href="https://upload.wikimedia.org/wikipedia/commons/b/b5/CipherDisk2
 <div align="center">
     <br>
     <!-- <img src="/images/cipher_disk_shift_0.png" -->
-    <img src="https://github.com/statogale/caesar-cipher/blob/main/images/cipher_disk_shift_0.png"
+    <img src="https://raw.githubusercontent.com/statogale/caesar-cipher/main/images/cipher_disk_shift_0.png"
          width="300"
          align="center"
          margin="100"
@@ -77,7 +77,7 @@ Source: <a href="https://upload.wikimedia.org/wikipedia/commons/b/b5/CipherDisk2
     />
     <div align="center">CipherDisk in 0 position 0 Shift</div>
     <br>
-    <img src="https://github.com/statogale/caesar-cipher/blob/main/images/cipher_disk_shift_3.png"
+    <img src="https://raw.githubusercontent.com/statogale/caesar-cipher/main/images/cipher_disk_shift_3.png"
          width="300"
          align="center"
          margin="100"
