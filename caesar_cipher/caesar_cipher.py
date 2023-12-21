@@ -1,7 +1,7 @@
 """
-    Play by Play- Caesar's Cipher Encryption
+    Play by Play- Caesar's Cipher Program
     Substitution cipher
-    By Gabriel Okundaye, gabriel.okundaye@azubiafrica.org 🌍
+    By Gabriel Okundaye, gabriel.okundaye@statogale.com 🌍
 """
 from caesar_cipher \
 import alphabets as ca, get_input as gi, encryption as ce, decryption as de, messages as m
