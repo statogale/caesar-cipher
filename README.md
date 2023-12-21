@@ -5,7 +5,8 @@ From Wikipedia, the free encyclopedia
 In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code, or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
 
 <div align="center">
-    <img src="/images/julius_caesar.png"
+    <!-- <img src="/images/julius_caesar.png" -->
+    <img src="https://github.com/statogale/caesar-cipher/blob/main/images/julius_caesar.png"
          width="400"
          align="center"
          margin="100"
@@ -28,7 +29,8 @@ Ciphertext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD <br/>
 <br/>
 
 <div align="center">
-    <img src="/images/caesar_cipher_left_shift_of_3.png"
+    <!-- <img src="/images/caesar_cipher_left_shift_of_3.png" -->
+    <img src="https://github.com/statogale/caesar-cipher/blob/main/images/caesar_cipher_left_shift_of_3.png"
          width="400"
          align="center"
          margin="100"
@@ -45,7 +47,8 @@ Source: <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesa
 
 <br />
 <div align="center">
-    <img src="/images/alberti_cipher_disk.png" 
+    <!-- <img src="/images/alberti_cipher_disk.png"  -->
+    <img src="https://github.com/statogale/caesar-cipher/blob/main/images/alberti_cipher_disk.png" 
          width="400"
          align="center"
          margin="100"
@@ -64,7 +67,8 @@ Source: <a href="https://upload.wikimedia.org/wikipedia/commons/b/b5/CipherDisk2
 
 <div align="center">
     <br>
-    <img src="/images/cipher_disk_shift_0.png"
+    <!-- <img src="/images/cipher_disk_shift_0.png" -->
+    <img src="https://github.com/statogale/caesar-cipher/blob/main/images/cipher_disk_shift_0.png"
          width="300"
          align="center"
          margin="100"
@@ -73,7 +77,7 @@ Source: <a href="https://upload.wikimedia.org/wikipedia/commons/b/b5/CipherDisk2
     />
     <div align="center">CipherDisk in 0 position 0 Shift</div>
     <br>
-    <img src="/images/cipher_disk_shift_3.png"
+    <img src="https://github.com/statogale/caesar-cipher/blob/main/images/cipher_disk_shift_3.png"
          width="300"
          align="center"
          margin="100"
