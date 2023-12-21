@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
-import codecs
+import io
 import os
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
+with io.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
     
-VERSION = '0.0.5'
+VERSION = '0.0.6'
 DESCRIPTION = 'Preserving History Through Code- Caesar Cipher'
 # LONG_DESCRIPTION = "Preserving History Through Code- Julius Caesar's Shift Cipher"
 
